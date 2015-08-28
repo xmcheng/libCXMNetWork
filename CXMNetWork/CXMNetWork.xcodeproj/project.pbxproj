@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AC113E1AF75F2600FB4479 /* CXMNetWork.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC113D1AF75F2600FB4479 /* CXMNetWork.h */; };
+		18AC11401AF75F2700FB4479 /* CXMNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC113F1AF75F2600FB4479 /* CXMNetWork.m */; };
+		18AC11461AF75F2700FB4479 /* libCXMNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC113A1AF75F2600FB4479 /* libCXMNetWork.a */; };
+		18AC117D1AF75F7B00FB4479 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC11761AF75F7B00FB4479 /* GCDAsyncSocket.m */; };
+		18AC117E1AF75F7B00FB4479 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC11781AF75F7B00FB4479 /* GCDAsyncUdpSocket.m */; };
+		18AC117F1AF75F7B00FB4479 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC117A1AF75F7B00FB4479 /* Reachability.m */; };
+		18AC11801AF75F7B00FB4479 /* SYNNetSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC117C1AF75F7B00FB4479 /* SYNNetSocket.m */; };
+		18AC11861AF7628900FB4479 /* SYNDispatchProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC11831AF7628900FB4479 /* SYNDispatchProcessor.m */; };
+		18AC11871AF7628900FB4479 /* SYNProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC11851AF7628900FB4479 /* SYNProtocol.m */; };
+		18AC11881AF7655B00FB4479 /* SYNDispatchProcessor.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC11821AF7628900FB4479 /* SYNDispatchProcessor.h */; };
+		18AC11891AF7655B00FB4479 /* SYNNetSocket.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC117B1AF75F7B00FB4479 /* SYNNetSocket.h */; };
+		18AC118B1AF7657B00FB4479 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC118A1AF7657B00FB4479 /* CFNetwork.framework */; };
+		18AC11921AF7668700FB4479 /* GCDAsyncSocket.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC11751AF75F7B00FB4479 /* GCDAsyncSocket.h */; };
+		18AC11931AF7668700FB4479 /* Reachability.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC11791AF75F7B00FB4479 /* Reachability.h */; };
+		18AC119D1AF766C700FB4479 /* SYNProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC11841AF7628900FB4479 /* SYNProtocol.h */; };
+		18AC119E1AF766C700FB4479 /* GCDAsyncUdpSocket.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 18AC11771AF75F7B00FB4479 /* GCDAsyncUdpSocket.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AC11471AF75F2700FB4479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC11321AF75F2600FB4479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC11391AF75F2600FB4479;
+			remoteInfo = CXMNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18AC11381AF75F2600FB4479 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				18AC119D1AF766C700FB4479 /* SYNProtocol.h in Copy Files */,
+				18AC119E1AF766C700FB4479 /* GCDAsyncUdpSocket.h in Copy Files */,
+				18AC11921AF7668700FB4479 /* GCDAsyncSocket.h in Copy Files */,
+				18AC11931AF7668700FB4479 /* Reachability.h in Copy Files */,
+				18AC11881AF7655B00FB4479 /* SYNDispatchProcessor.h in Copy Files */,
+				18AC11891AF7655B00FB4479 /* SYNNetSocket.h in Copy Files */,
+				18AC113E1AF75F2600FB4479 /* CXMNetWork.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18AC113A1AF75F2600FB4479 /* libCXMNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCXMNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC113D1AF75F2600FB4479 /* CXMNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMNetWork.h; sourceTree = "<group>"; };
+		18AC113F1AF75F2600FB4479 /* CXMNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMNetWork.m; sourceTree = "<group>"; };
+		18AC11451AF75F2700FB4479 /* CXMNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXMNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC114B1AF75F2700FB4479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC11751AF75F7B00FB4479 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		18AC11761AF75F7B00FB4479 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		18AC11771AF75F7B00FB4479 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		18AC11781AF75F7B00FB4479 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		18AC11791AF75F7B00FB4479 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18AC117A1AF75F7B00FB4479 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18AC117B1AF75F7B00FB4479 /* SYNNetSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNNetSocket.h; sourceTree = "<group>"; };
+		18AC117C1AF75F7B00FB4479 /* SYNNetSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNNetSocket.m; sourceTree = "<group>"; };
+		18AC11821AF7628900FB4479 /* SYNDispatchProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNDispatchProcessor.h; sourceTree = "<group>"; };
+		18AC11831AF7628900FB4479 /* SYNDispatchProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNDispatchProcessor.m; sourceTree = "<group>"; };
+		18AC11841AF7628900FB4479 /* SYNProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNProtocol.h; sourceTree = "<group>"; };
+		18AC11851AF7628900FB4479 /* SYNProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNProtocol.m; sourceTree = "<group>"; };
+		18AC118A1AF7657B00FB4479 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AC11371AF75F2600FB4479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC118B1AF7657B00FB4479 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC11421AF75F2700FB4479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC11461AF75F2700FB4479 /* libCXMNetWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AC11311AF75F2600FB4479 = {
+			isa = PBXGroup;
+			children = (
+				18AC118A1AF7657B00FB4479 /* CFNetwork.framework */,
+				18AC11811AF7628900FB4479 /* Protocol */,
+				18AC11731AF75F7B00FB4479 /* NetWork */,
+				18AC113C1AF75F2600FB4479 /* CXMNetWork */,
+				18AC11491AF75F2700FB4479 /* CXMNetWorkTests */,
+				18AC113B1AF75F2600FB4479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AC113B1AF75F2600FB4479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AC113A1AF75F2600FB4479 /* libCXMNetWork.a */,
+				18AC11451AF75F2700FB4479 /* CXMNetWorkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AC113C1AF75F2600FB4479 /* CXMNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				18AC113D1AF75F2600FB4479 /* CXMNetWork.h */,
+				18AC113F1AF75F2600FB4479 /* CXMNetWork.m */,
+			);
+			path = CXMNetWork;
+			sourceTree = "<group>";
+		};
+		18AC11491AF75F2700FB4479 /* CXMNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC114A1AF75F2700FB4479 /* Supporting Files */,
+			);
+			path = CXMNetWorkTests;
+			sourceTree = "<group>";
+		};
+		18AC114A1AF75F2700FB4479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC114B1AF75F2700FB4479 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AC11731AF75F7B00FB4479 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				18AC11741AF75F7B00FB4479 /* GCDSocket */,
+				18AC11791AF75F7B00FB4479 /* Reachability.h */,
+				18AC117A1AF75F7B00FB4479 /* Reachability.m */,
+				18AC117B1AF75F7B00FB4479 /* SYNNetSocket.h */,
+				18AC117C1AF75F7B00FB4479 /* SYNNetSocket.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		18AC11741AF75F7B00FB4479 /* GCDSocket */ = {
+			isa = PBXGroup;
+			children = (
+				18AC11751AF75F7B00FB4479 /* GCDAsyncSocket.h */,
+				18AC11761AF75F7B00FB4479 /* GCDAsyncSocket.m */,
+				18AC11771AF75F7B00FB4479 /* GCDAsyncUdpSocket.h */,
+				18AC11781AF75F7B00FB4479 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCDSocket;
+			sourceTree = "<group>";
+		};
+		18AC11811AF7628900FB4479 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18AC11821AF7628900FB4479 /* SYNDispatchProcessor.h */,
+				18AC11831AF7628900FB4479 /* SYNDispatchProcessor.m */,
+				18AC11841AF7628900FB4479 /* SYNProtocol.h */,
+				18AC11851AF7628900FB4479 /* SYNProtocol.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AC11391AF75F2600FB4479 /* CXMNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC114E1AF75F2700FB4479 /* Build configuration list for PBXNativeTarget "CXMNetWork" */;
+			buildPhases = (
+				18AC11361AF75F2600FB4479 /* Sources */,
+				18AC11371AF75F2600FB4479 /* Frameworks */,
+				18AC11381AF75F2600FB4479 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXMNetWork;
+			productName = CXMNetWork;
+			productReference = 18AC113A1AF75F2600FB4479 /* libCXMNetWork.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		18AC11441AF75F2700FB4479 /* CXMNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC11511AF75F2700FB4479 /* Build configuration list for PBXNativeTarget "CXMNetWorkTests" */;
+			buildPhases = (
+				18AC11411AF75F2700FB4479 /* Sources */,
+				18AC11421AF75F2700FB4479 /* Frameworks */,
+				18AC11431AF75F2700FB4479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC11481AF75F2700FB4479 /* PBXTargetDependency */,
+			);
+			name = CXMNetWorkTests;
+			productName = CXMNetWorkTests;
+			productReference = 18AC11451AF75F2700FB4479 /* CXMNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AC11321AF75F2600FB4479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CXM;
+				TargetAttributes = {
+					18AC11391AF75F2600FB4479 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					18AC11441AF75F2700FB4479 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 18AC11351AF75F2600FB4479 /* Build configuration list for PBXProject "CXMNetWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18AC11311AF75F2600FB4479;
+			productRefGroup = 18AC113B1AF75F2600FB4479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AC11391AF75F2600FB4479 /* CXMNetWork */,
+				18AC11441AF75F2700FB4479 /* CXMNetWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AC11431AF75F2700FB4479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AC11361AF75F2600FB4479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC117D1AF75F7B00FB4479 /* GCDAsyncSocket.m in Sources */,
+				18AC117E1AF75F7B00FB4479 /* GCDAsyncUdpSocket.m in Sources */,
+				18AC11801AF75F7B00FB4479 /* SYNNetSocket.m in Sources */,
+				18AC11861AF7628900FB4479 /* SYNDispatchProcessor.m in Sources */,
+				18AC11871AF7628900FB4479 /* SYNProtocol.m in Sources */,
+				18AC117F1AF75F7B00FB4479 /* Reachability.m in Sources */,
+				18AC11401AF75F2700FB4479 /* CXMNetWork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC11411AF75F2700FB4479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AC11481AF75F2700FB4479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC11391AF75F2600FB4479 /* CXMNetWork */;
+			targetProxy = 18AC11471AF75F2700FB4479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18AC114C1AF75F2700FB4479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18AC114D1AF75F2700FB4479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AC114F1AF75F2700FB4479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18AC11501AF75F2700FB4479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		18AC11521AF75F2700FB4479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CXMNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AC11531AF75F2700FB4479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CXMNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AC11351AF75F2600FB4479 /* Build configuration list for PBXProject "CXMNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC114C1AF75F2700FB4479 /* Debug */,
+				18AC114D1AF75F2700FB4479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AC114E1AF75F2700FB4479 /* Build configuration list for PBXNativeTarget "CXMNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC114F1AF75F2700FB4479 /* Debug */,
+				18AC11501AF75F2700FB4479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AC11511AF75F2700FB4479 /* Build configuration list for PBXNativeTarget "CXMNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC11521AF75F2700FB4479 /* Debug */,
+				18AC11531AF75F2700FB4479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AC11321AF75F2600FB4479 /* Project object */;
+}
